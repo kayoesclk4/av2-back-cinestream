@@ -177,3 +177,19 @@ app.listen(PORT, () => {
   console.log(`CineStream API rodando em http://localhost:${PORT}`);
 });
 
+// ====================== DADOS INICIAIS ======================
+filmes = [
+  { id: 1, titulo: "Duna: Parte Dois", genero: "Ficcao Cientifica", ano_lancamento: 2024 },
+  { id: 2, titulo: "Oppenheimer", genero: "Drama Historico", ano_lancamento: 2023 },
+  { id: 3, titulo: "Furiosa: A Mad Max Saga", genero: "Acao", ano_lancamento: 2024 },
+  { id: 4, titulo: "Deadpool & Wolverine", genero: "Acao/Comedia", ano_lancamento: 2024 }
+];
+proximoIdFilme = 5;
+
+usuarios = [
+  { id: 1, nome: "Ana Silva", email: "ana.silva@email.com", plano: "Premium" },
+  { id: 2, nome: "Joao Mendes", email: "joao.mendes@email.com", plano: "Basico" },
+  { id: 3, nome: "Maria Oliveira", email: "maria.oliveira@email.com", plano: "Premium" },
+  { id: 4, nome: "Pedro Santos", email: "pedro.santos@email.com", plano: "Basico" }
+];
+proximoIdUsuario = 5;
